@@ -1,3 +1,7 @@
+
+// MIT License
+// Source: https://github.com/vtex/country-iso-3-to-2
+
 var countryISOMapping = {
   AFG: "AF",
   ALA: "AX",
