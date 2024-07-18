@@ -252,6 +252,6 @@ var countryISOMapping = {
   XKX: "XK"
 }
 
-module.exports = function getCountryISO2(countryCode) {
-  return countryISOMapping[countryCode]
+function getCountryISO2(countryCode) {
+  return countryISOMapping.hasOwnProperty(countryCode)?isoCountries[countryCode]:countryCode
 }
