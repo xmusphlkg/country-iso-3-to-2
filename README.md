@@ -2,16 +2,9 @@
 
 > Convert a country code ISO 3166-1 Alpha-3 to ISO 3166-1 Alpha-2
 
-## Install
-
-```sh
-$ npm install country-iso-3-to-2
-```
-
 ## Usage
 
 ```js
-const getCountryISO2 = require("country-iso-3-to-2");
 
 getCountryISO2("BRA")
 // "BR"
