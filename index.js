@@ -253,5 +253,5 @@ var countryISOMapping = {
 }
 
 function getCountryISO2(countryCode) {
-  return countryISOMapping.hasOwnProperty(countryCode)?isoCountries[countryCode]:countryCode
+  return countryISOMapping.hasOwnProperty(countryCode)?countryISOMapping[countryCode]:countryCode
 }
